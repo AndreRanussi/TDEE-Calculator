@@ -18,4 +18,3 @@ Stil being developed!!!!
 
 # Usage
 
-still being developed
