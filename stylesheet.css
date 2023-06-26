@@ -1,0 +1,10 @@
+.header-title{
+  padding-left: 1rem;
+}
+
+.result-box{
+  border: 1px;
+  border-style: solid;
+  display: block;
+  height: 1rem;
+}
