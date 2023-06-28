@@ -8,3 +8,7 @@
   display: block;
   height: 1rem;
 }
+
+#result {
+  font-weight: 700;
+}

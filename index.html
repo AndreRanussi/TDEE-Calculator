@@ -28,20 +28,18 @@
         <li class="nav-item"><a href="#" class="nav-link">About</a></li>
       </ul>
     </header>
+  </div>
+  <main>
     <div class="container text-center">
       <div class="row align-items-start">
         <div class="col">
-          <form>
+          <div class="form">
             <div class="mb-3">
               <label class="form-label" for="gender">Gender</label>
               <select class="form-control" id="gender" name="gender">
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
               </select>
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="age">Age</label>
-              <input type="number" class="form-control" id="age">
             </div>
             <div class="mb-3">
               <label class="form-label" for="height">Height</label>
@@ -53,45 +51,37 @@
             </div>
             <div class="mb-3">
               <label class="form-label" for="activeLevel">Activity Level</label>
-              <select class="form-control " id="activeLevel" name="gender">
-                <option value="1.2"  class="align-text-center">Little/no exercise (sedentary lifestyle)</option>
+              <select class="form-control" id="activeLevel" name="gender">
+                <option value="1.2" class="align-text-center">Little/no exercise (sedentary lifestyle)</option>
                 <option value="1.375">Light exercise 1-2 times/week</option>
                 <option value="1.55">Moderate exercise 2-3 times/week</option>
                 <option value="1.725">Hard exercise 4-5 times/week</option>
-                <option value="1.9">Pysical job or hard exercise 6-7 times/week</option>
+                <option value="1.9">Physical job or hard exercise 6-7 times/week</option>
                 <option value="2.9">Professional athlete</option>
               </select>
             </div>
-            <button class="btn btn-dark" id="btn">Submit</button>
-          </form>
+            <button class="btn btn-dark" id="btn" onclick="result()">Submit</button>
+          </div>
         </div>
         <div class="col">
-          <div class="d-flex align-items-center flex-column" style="height: 300px;">
+          <div class="d-flex align-items-center flex-column" style="height: 250px">
             <div class=" mb-auto row-8 ro-sm-6">
               <p>TDEE calculator allows you to estimate your total daily energy expenditure, and helps you to find out
-                how                many calories you burn every day. You can use this information to plan your meals, or to decide if you
+                how many calories you burn every day. You can use this information to plan your meals, or to decide if
+                you
                 want to eat that chocolate bar or not 😊.</p>
             </div>
             <div class="p-3 text-primary-emphasis bg-dark-subtle border border-dark-subtle rounded-3">
-              <p id="result">
-
-              </p>
+              <p>Your Total Daily Energy Expediture is <span id="result"> 0 </span>calories</p>
             </div>
           </div>
-
-
-            
         </div>
-
-
-
       </div>
     </div>
+    </div>
+  </main>
   </div>
-
-  </div>
-
-  </header>
+  <script src="index.js"></script>
 </body>
 
 </html>
