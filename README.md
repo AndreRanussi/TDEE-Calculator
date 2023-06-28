@@ -3,9 +3,9 @@
 On this project, the aim was to get a feel of the Bootstrap framework and to complete my first challenge with Javascript. 
 Despite now feeling simple, it was challenging to figure out how to make Javascript carry out the calculation the way I needed to and then push the result on the DOM at the click of a button. 
 
-<!-- # Hosted
+# Hosted
 
-https://andreranussi.github.io/TDEE-Calculator/ -->
+https://andreranussi.github.io/TDEE-Calculator/
 
 # Project specifications
 
